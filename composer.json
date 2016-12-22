@@ -1,0 +1,22 @@
+{
+  "name": "dennislui/taobaosdk",
+  "description": "淘宝服务端SDK",
+  "keywords": ["taobao","lumen","laravel","sdk"],
+  "homepage": "https://github.com/hackout/taobaosdk",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "require": {
+    "php":">=5.4.0"
+  },
+  "authors": [
+    {
+      "name": "DennisLui",
+      "email": "hackout@vip.qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4":{
+      "DennisLui\\TaobaoSDK\\": "src/"
+    }
+  }
+}
